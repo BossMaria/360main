@@ -1,0 +1,170 @@
+
+
+.mainbodyposter{
+   
+        
+        width: 80vw;
+        /* display: flex; */
+        height: 360vh;
+        border-radius: 10vw;
+        margin: 1% auto;
+        /* margin-top: -18vw; */
+        background-color: rgba(225, 225, 225, 0.4);
+    backdrop-filter: blur(2px);
+    filter: saturate(160%);
+        
+}
+
+/* 1 block */
+
+.posterblock1{
+    height: 2.5vw;
+    width: 10vw;
+    background: #E0F416;
+    border-radius: 3vw;
+    text-align: center;
+    /* padding-top: 1vw; */
+    color: #A3B115;
+    line-height: 2.5vw;
+  
+}
+
+.posterblock1div{
+    display: flex;
+    justify-content: center;
+    padding-top: 8vw;
+}
+
+/* 2 block */
+
+.posterblock2{
+    display: flex;
+    margin-top: 10vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    gap: 2vw;
+}
+
+.poster{
+
+    width: 35vw;
+    height: 42vw;
+    background-color: rgba(255, 255, 255, 0.203);
+    backdrop-filter: blur(2px);
+    filter: saturate(160%);
+    border-radius: 5vw;
+    transition: opacity 0.4s ease;
+
+}
+
+.poster h1,h2,h3{
+    padding-left: 5vw;
+    padding-top: 4vw;
+}
+
+.posterhover{
+    position: absolute;
+    width: 34vw;
+    height: 30vw;
+    /* background-color: #D9D9D9; */
+    /* border-radius: 5vw; */
+    /* display: none; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2vw;
+    gap: 2vw;
+    margin-top: -3vw;
+}
+
+.posterhovertext{
+    height: 3.5vw;
+    width: 16vw;
+    background: #E3F52D;
+    border-radius: 3vw;
+    text-align: center;
+    padding-top: 1.3vw;
+    color: #A3B115;
+    margin-left: 6vw;
+}
+
+/* .posterhover1{
+    position: absolute;
+    width: 34vw;
+    height: 30vw;
+    background-color: #D9D9D9;
+    border-radius: 5vw;
+    /* display: none; */
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2vw;
+    gap: 2vw;
+    margin-left: 36vw;
+    z-index: 1;
+} */ */
+
+.menu1 {
+    width: 25%;
+    margin-left: 1vw;
+    margin-top: -6vw;
+    position: absolute;
+}
+
+.menuposter{
+    margin-top: -5vw;
+}
+
+.menuopenposter{
+    margin-top: -15vw;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 6000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 1vw;
+    font-family: "ApercuProLight";
+    font-size: 1vw; 
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* block 3 */
+
+.posterblock3{
+    display: flex;
+    margin-top: 3vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    gap: 2vw;
+}
+
+/* block 4 */
+
+.posterblock4{
+    display: flex;
+    margin-top: 3vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    gap: 2vw;
+}
