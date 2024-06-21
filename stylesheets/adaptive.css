@@ -12,11 +12,11 @@
 
 
 @media screen and (min-width: 415px) and (max-width: 768px) {
-/* 
+
     h1, p, h2,h3,h4{ 
         font-family: "ApercuProLight";
-        font-size: 1.2vw; 
-    } */
+        font-size: 2vw; 
+    }
 
     .mainbody{
         background: #FFFFFF;
@@ -28,7 +28,214 @@
         /* margin-top: -18vw; */
         margin-top: 15vw;
         }
-   
+
+    .comptmusic{
+        width: 35vw;
+    height: 15vw;
+    }
+
+   .menubar{
+    width: 30vw;
+    height: 15vw;
+    border-radius: 6vw;
+   }
+
+   .allertyellow{
+    width: 30vw;
+    height: 10vw;
+    border-radius: 1.5vh;
+   }
+
+   .allertblue{
+    width: 30vw;
+    height: 10vw;
+    border-radius: 1.5vh;
+    margin-top: 20vw;
+   }
+
+   .close1img, .close2img {
+    width: 40%;
+    margin-left: 7vw;
+    }
+
+    .box{
+        width: 67vw;
+        height: 5vw;
+        padding-top: 1.5vw;
+    }
+
+    .musictext1{
+        height: 5vw;
+        width: 25vw;
+    }
+
+    .musictext2 {
+        height: 5vw;
+        width: 25vw;
+    }
+
+    .dowload{
+        height: 3.5vw;
+    width: 11vw;
+    }
+    
+
+    /* BLOCK 3 */
+
+    .poster1{
+        height: 35vw;
+    }
+
+    .poster2{
+        width: 30vw;
+        height: 30vw;
+        margin-left: 4vw;
+    }
+
+    .poster2 h1 {
+        padding-top: 13vw;
+    }
+
+    .buy{
+        height: 4vw;
+    width: 9vw;
+    margin-left: 22vw;
+    }
+
+    /* BLOCK 5 */
+
+    .block5text {
+        height: 5vw;
+        width: 30vw;
+        padding-top: 1.5vw;
+    }
+
+    .block5text1{
+        height: 5vw;
+        width: 5vw;
+    }
+
+    /* BLOCK 6 */
+
+    .girltext1 {
+        height: 4vw;
+        width: 37vw;
+        top: 40vw;
+        left: 4vw;
+    }
+
+    .mantext1 {
+        height: 4vw;
+        width: 37vw;
+        top: 40vw;
+        left: 50vw;
+    }
+
+    .mantext2{
+        width: 30vw;
+         top: 26vw;
+         left: 44vw;
+    }
+    .mantext2 h1{
+        padding-top: 1vw;
+        padding-right: 0.5vw;
+        padding-left: 0.5vw;
+    }
+
+    .mantext2 br {
+        display: none;
+      }
+
+    .girltext2{
+        width: 30vw;
+
+      }
+
+    .girltext2 h1{
+        padding-top: 1.5vw;
+        padding-right: 0.5vw;
+        padding-left: 0.5vw;
+
+      }
+
+
+    /* BLOCK 7 */
+
+    .booktext{
+        height: 4vw;
+        margin-top: -25vw;
+    }
+
+
+    /* BLOCK 8 */
+
+    .block8{
+        gap: 2vw;
+    }
+    .mountaindiv h1 {
+        left: 24vw;
+        margin-top: 18vw;
+        height: 4vw;
+        width: 24vw;
+    }
+
+    .waterfall {
+        width: 27vw;
+    }
+
+    .mountain {
+        width: 60vw;
+    }
+
+    /* BLOCK 9 */
+
+    .phototext1{
+        height: 5vw;
+        width: 25vw;
+    }
+
+    .phototext2 {
+        height: 5vw;
+        width: 25vw;
+    }
+
+
+    /* FOOTER */
+
+    .footertext {
+        height: 4.5vw;
+        width: 26vw;
+    }
+    .footertext1{
+        height: 4.5vw;
+        width: 12vw;
+    }
+
+    .footerpart{
+        gap: 3vw;
+    }
+
+    .u, .b, .m, .s {
+        height: 4.5vw;
+        width: 10vw;
+    }
+
+    /* SERVICE////////////////////////////////////////////////// */
+
+    .maintextservice h1 {
+        height: 3.5vw;
+        width: 23vw;
+        padding-top: 0.5vw;
+        
+    }
+
+    .serviceblock1 img {
+        width: 19vw;
+    }
+
+
+
+
 }
 
 @media screen and (max-width: 414px) {
@@ -37,7 +244,7 @@
         background: #FFFFFF;
         width: 100vw;
         /* display: flex; */
-        height: 750vh;
+        height: 350vh;
         border-radius: 10vw;
         margin: 1% auto;
         /* margin-top: -18vw; */
