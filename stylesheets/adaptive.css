@@ -12,9 +12,36 @@
 
 
 @media screen and (min-width: 415px) and (max-width: 768px) {
+/* 
+    h1, p, h2,h3,h4{ 
+        font-family: "ApercuProLight";
+        font-size: 1.2vw; 
+    } */
+
+    .mainbody{
+        background: #FFFFFF;
+        width: 100vw;
+        /* display: flex; */
+        height: 750vh;
+        border-radius: 10vw;
+        margin: 1% auto;
+        /* margin-top: -18vw; */
+        margin-top: 15vw;
+        }
    
 }
 
 @media screen and (max-width: 414px) {
+
+    .mainbody{
+        background: #FFFFFF;
+        width: 100vw;
+        /* display: flex; */
+        height: 750vh;
+        border-radius: 10vw;
+        margin: 1% auto;
+        /* margin-top: -18vw; */
+        margin-top: 15vw;
+        }
 
 }
