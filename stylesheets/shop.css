@@ -22,6 +22,19 @@
     filter: saturate(160%);
 }
 
+.buy1{
+    height: 2.5vw;
+    width: 8vw;
+    background: #E0F416;
+    border-radius: 3vw;
+    text-align: center;
+    padding-top: 0.8vw;
+    color: #A3B115;
+    margin-top: 1vw;
+    /* margin-left: auto; */
+    margin-left: 13vw;
+}
+
 /* block 1 */
 
 .shopblock1{
@@ -130,3 +143,46 @@
     width: 100%;
 }
 
+@media screen and (min-width: 415px) and (max-width: 768px){
+
+    .bus{
+        margin-left: 19vw;
+        margin-top: -57vw;
+    }
+
+    .bustext{
+        height: 4.5vw;
+        width: 41vw;
+    }
+    .bustext1{
+        height: 4.5vw;
+    }
+
+    .buy1 , .buy2{
+        height: 3.5vw;
+        
+    }
+
+    .buy1{
+        margin-left: 18vw;
+    }
+    .buy2{
+        margin-left: 46vw;
+    }
+
+    .mainbodyshop{
+        width: 100vw;
+        height: 500vw;
+    }
+
+    .shopblock2{
+        top: 57vw;
+    }
+
+    .shopblock3{
+        margin-top: 63vw;
+    }
+
+
+
+}

@@ -75,3 +75,23 @@
     margin-right: 5vw;
     margin-top: 10vw;
 }
+
+.maintextbook{
+    text-align: center;
+    width: 100%;
+    padding-top: 8vw;
+    color: #000000;
+}
+
+@media screen and (min-width: 415px) and (max-width: 768px){
+
+    .menuopenposter{
+        height: 320vw;
+
+    }
+
+    .mainbodybook{
+        width: 100vw;
+        height: 350vw;
+    }
+}

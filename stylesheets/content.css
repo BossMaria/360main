@@ -784,14 +784,14 @@ gap: 2vw;
     color: #A3B115;
 }
 
-.block10 img{
-    width: 100%;
-    border-radius: 5vw;
-}
 
 .block10{
     margin-left: 5vw;
     margin-right: 5vw;
+}
+
+#vid-2{
+    border-radius: 5vw;
 }
 
 /* footer */

@@ -168,3 +168,31 @@
     margin-right: 5vw;
     gap: 2vw;
 }
+
+@media screen and (min-width: 415px) and (max-width: 768px){
+
+    .poster{
+
+       height: 47vw;
+    }
+
+    .mainbodyposter{
+        width: 100vw;
+        height: 150vh;
+    }
+
+    .posterblock2 , .posterblock2 , .posterblock3 , .posterblock4{
+        margin-left: 13vw;
+    }
+    .posterhovertext{
+        padding-top: 0.8vw;
+    }
+
+    .posterblock1 {
+        height: 3.5vw;
+        width: 11vw;
+        padding-top: 0.7vw;
+    }
+
+    
+}
