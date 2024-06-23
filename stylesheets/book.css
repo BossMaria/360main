@@ -83,7 +83,23 @@
     color: #000000;
 }
 
-@media screen and (min-width: 415px) and (max-width: 768px){
+
+/* ADAPTIVE */
+
+@media screen and (max-width: 414px){
+
+    .menuopenposter{
+        height: 320vw;
+
+    }
+
+    .mainbodybook{
+        width: 100vw;
+        height: 350vw;
+    }
+}
+
+@media screen and (max-width: 768px){
 
     .menuopenposter{
         height: 320vw;

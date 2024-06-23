@@ -86,7 +86,41 @@ body{
     margin-top: 4.5vw;
 }
 
-@media screen and (min-width: 415px) and (max-width: 768px){
+
+/* ADAPTIVE */
+
+@media screen and (max-width: 414px){
+
+    .maintextservice h1 {
+        height: 3.5vw;
+        width: 23vw;
+        padding-top: 0.5vw;
+        
+    }
+
+    .serviceblock1 img {
+        width: 19vw;
+        height: 20vw;
+    }
+
+
+    .textblock2{
+        padding-top: 0.6vw;
+    }
+
+    .mainbodyservice{
+        height: 170vw;
+        width: 100vw;
+    }
+
+    .menuopenserv {
+        height: 218vw;
+        margin-top: -15vw;
+    }
+
+}
+
+@media screen and (max-width: 768px){
 
     .maintextservice h1 {
         height: 3.5vw;
@@ -122,3 +156,4 @@ body{
 
 
 }
+

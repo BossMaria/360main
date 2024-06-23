@@ -47,12 +47,7 @@ a:link {
 
 }
 
-.cartcross{
-    position: fixed;
-    margin-left: 20vw;
-    margin-top: -3vw;
-    width: 10%;
-}
+
 
 .cartdiv{
     position: fixed;
@@ -134,18 +129,31 @@ a:link {
 
 }
 
+/* CLOSE */
+
+.cartcross{
+    position: fixed;
+    margin-left: 20vw;
+    margin-top: -3vw;
+    width: 10%;
+}
+
 .choicecross{
     position: fixed;
     margin-left: 11vw;
     margin-top: -3vw;
     width: 10%;
 }
-.closeimg3{
+
+.accountcross{
     position: fixed;
     margin-left: 15vw;
     margin-top: -3vw;
     width: 10%;
 }
+
+
+
 .accountface{
     width: 40%;
     margin-bottom: 1vw;
