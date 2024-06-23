@@ -18,7 +18,7 @@
 
 
 .cartdiv, .choicediv{
-    margin-top: 125%;
+    margin-top: 25%;
     width: 30vw;
     height: 26vw;
     left: -26vw;
@@ -52,7 +52,7 @@
 }
 
 .accountdiv{
-    margin-top: 125%;
+    margin-top: 25%;
     width: 30vw;
     height: 26vw;
     left: -26vw;
@@ -109,8 +109,8 @@ margin-top: 20vw;
 }
 
 .close1img, .close2img {
-width: 40%;
-margin-left: 6vw;
+    width: 29%;
+    margin-left: 9vw;
 }
 
 .box{
