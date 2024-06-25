@@ -159,7 +159,7 @@
     background-color: rgb(255, 255, 255); 
     margin: 15% auto; 
     padding: 20px; 
-    width: 30%; 
+    width: 100%; 
     border:20px solid rgb(255, 255, 255); 
     border-radius: 1vw; 
     font-family: 'Geometria'; 
@@ -167,17 +167,15 @@
   .close{ 
     color:#999; 
     float: right; 
-    font-size: 1.5vw; 
-    font-weight: bold; 
-    font-family: 'Geometria'; 
  
   } 
+
  
-  .close:hover{ 
+  /* .close:hover{ 
     color: #BAB0F5; 
     text-decoration: none; 
     cursor: pointer; 
-  } 
+  }  */
  
   input[type="text"],input[type="email"],input[type="tel"], input [type="submit"] select{ 
     display: block; 
@@ -196,7 +194,7 @@
  
 #send{ 
     text-decoration: none; 
-    font-family: 'Geometria'; 
+    font-family: "ApercuProLight";
     position: relative; 
     margin: 2vw auto; 
     height: 3.5vw; 
@@ -213,9 +211,7 @@
     font-family: 'Geometria'; 
 }
 
-.close {
-    color: #aaa;
-}
+
 
 /* block 3 */
 
