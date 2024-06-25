@@ -146,7 +146,8 @@
 
 /* ADAPTIVE */
 
-@media screen and (max-width: 414px){
+
+@media screen and (max-width: 1024px){
 
     .bus{
         margin-left: 19vw;
@@ -194,36 +195,54 @@
 
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 430px){
+
+    .maintextshop br{
+        display: none;
+    }
+
+    .maintextshop{
+
+        padding-right: 15vw;
+    padding-left: 15vw;
+
+    }
 
     .bus{
-        margin-left: 19vw;
-        margin-top: -57vw;
+        margin-left: 37vw;
+        margin-top: -59vw;
     }
 
     .bustext{
-        height: 4.5vw;
-        width: 41vw;
+        display: none;
     }
     .bustext1{
-        height: 4.5vw;
+        height: 8vw;
+        width: 26vw;
+        border-radius: 4vw;
+        padding-top: 2vw;
     }
 
     .buy1 , .buy2{
-        height: 3.5vw;
+        height: 7vw;
+        width: 15vw;
+        margin-left: 36vw;
+        border-radius: 12vw;
+        padding-top: 1.5vw;
         
     }
 
     .buy1{
-        margin-left: 18vw;
+        margin-left: 15vw;
     }
     .buy2{
-        margin-left: 46vw;
+        margin-left: 42vw;
     }
 
     .mainbodyshop{
         width: 100vw;
-        height: 500vw;
+        height: 583vw;
+        margin-top: 22vw;
     }
 
     .shopblock2{
@@ -231,12 +250,24 @@
     }
 
     .shopblock3{
-        margin-top: 63vw;
+        margin-top: 70vw;
     }
 
+    .shopblock4{
+        top: 9vw;
+
+    }
+    
+    .shopblock5 {
+        margin-top: 20vw;
+        text-align: center;
+    }
 
     .menushop{
         height: 500vw;
+        margin-top:-10vw;
+        margin-left: -10vw;
+        width: 110vw;
     }
 
 

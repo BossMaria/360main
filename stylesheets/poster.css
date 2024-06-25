@@ -142,11 +142,79 @@
     font-size: 1vw; 
 }
 
+.modal{ 
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0, 0, 0, 0.4); 
+    backdrop-filter: blur(3px); 
+} 
+ 
+.modal-content{ 
+    background-color: rgb(255, 255, 255); 
+    margin: 15% auto; 
+    padding: 20px; 
+    width: 30%; 
+    border:20px solid rgb(255, 255, 255); 
+    border-radius: 1vw; 
+    font-family: 'Geometria'; 
+  } 
+  .close{ 
+    color:#999; 
+    float: right; 
+    font-size: 1.5vw; 
+    font-weight: bold; 
+    font-family: 'Geometria'; 
+ 
+  } 
+ 
+  .close:hover{ 
+    color: #BAB0F5; 
+    text-decoration: none; 
+    cursor: pointer; 
+  } 
+ 
+  input[type="text"],input[type="email"],input[type="tel"], input [type="submit"] select{ 
+    display: block; 
+    width: 24vw; 
+    position: relative; 
+    margin: 1.5vw auto; 
+    height: 3.5vw; 
+    padding: 0 2vw; 
+    font-size: 1.5vw; 
+    border-radius: 3vw; 
+    border: 1px solid #ddd; 
+    background: #ddd; 
+    font-family: 'Geometria'; 
+ 
+} 
+ 
+#send{ 
+    text-decoration: none; 
+    font-family: 'Geometria'; 
+    position: relative; 
+    margin: 2vw auto; 
+    height: 3.5vw; 
+    padding: 0 2vw; 
+    font-size: 1.5vw; 
+    display: block; 
+    width: 24vw; 
+    border-radius: 3vw; 
+    border: 1px solid #ddd; 
+ 
+} 
+#reg{ 
+    font-size: 1.5vw; 
+    font-family: 'Geometria'; 
+}
+
 .close {
     color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
 }
 
 /* block 3 */
@@ -198,7 +266,7 @@
     
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width:430px){
 
     .poster{
         height: 70vw;
