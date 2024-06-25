@@ -119,6 +119,9 @@
     margin-top: -15vw;
 }
 
+
+/* FORM */
+
 .modal {
     display: none;
     position: fixed;
@@ -128,14 +131,13 @@
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0, 0, 0, 0.4);
+    
 }
 
 .modal-content {
-    background-color: #fefefe;
+   
     margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #888;
+    padding: 2vw;
     width: 80%;
     border-radius: 1vw;
     font-family: "ApercuProLight";
@@ -145,30 +147,43 @@
 .modal{ 
     display: none; 
     position: fixed; 
-    z-index: 1; 
+    z-index: 50000; 
     top: 0; 
     left: 0; 
     width: 100%; 
     height: 100%; 
     overflow: auto; 
-    background-color: rgba(0, 0, 0, 0.4); 
     backdrop-filter: blur(3px); 
 } 
  
 .modal-content{ 
-    background-color: rgb(255, 255, 255); 
+   
     margin: 15% auto; 
     padding: 20px; 
     width: 100%; 
-    border:20px solid rgb(255, 255, 255); 
+    
     border-radius: 1vw; 
     font-family: 'Geometria'; 
   } 
   .close{ 
-    color:#999; 
-    float: right; 
+    position: absolute;
+    width: 5vw; 
+    height: 3vw; 
+    padding: 1vw 1.3vw; 
+    font-size: 2vw; 
+    border-radius: 3vw; 
+    border: 1px solid #E0F416;
+    font-family: "ApercuProLight";
+    background-color: #E0F416;
+    color: #A3B115;
+    margin-left: 30vw;
+    
  
   } 
+
+#myform{
+    width: 100%;
+  }
 
  
   /* .close:hover{ 
@@ -184,11 +199,11 @@
     margin: 1.5vw auto; 
     height: 3.5vw; 
     padding: 0 2vw; 
-    font-size: 1.5vw; 
+    font-size: 2vw; 
     border-radius: 3vw; 
-    border: 1px solid #ddd; 
-    background: #ddd; 
-    font-family: 'Geometria'; 
+    border: 1px solid #ddd;
+    font-family: "ApercuProLight";
+
  
 } 
  
@@ -203,7 +218,9 @@
     display: block; 
     width: 24vw; 
     border-radius: 3vw; 
-    border: 1px solid #ddd; 
+    border: 1px solid #ddd;
+
+
  
 } 
 #reg{ 
@@ -259,6 +276,17 @@
         padding-top: 0.7vw;
     }
 
+
+    /* FORM */
+
+    .close{
+       
+            width: 7vw;
+            height: 3vw;
+            padding: 0.5vw 1.3vw;
+            margin-left: 28vw;
+  
+    }
     
 }
 
@@ -295,6 +323,32 @@
     .posterhover{
         width: 43vw;
     height: 40vw;
+    }
+
+    /* FORM */
+
+    .close {
+        width: 14vw;
+        height: 7vw;
+        padding: 1.5vw 2.3vw;
+        margin-left: 6vw;
+        border-radius: 5vw;
+    }
+
+    input[type="text"], input[type="email"], input[type="tel"], input [type="submit"] select {
+       
+        width: 48vw;
+        height: 7.5vw;
+        font-size: 3vw;
+        border-radius: 10vw;
+        
+    }
+
+    #send{
+        width: 48vw;
+        height: 7.5vw;
+        font-size: 3vw;
+        border-radius: 10vw;
     }
 
     
