@@ -36,7 +36,7 @@ body{
     
 .maintextservice h1{
     height: 2.5vw;
-    width: 15vw;
+    width: 6vw;
     background: #E0F416;
     border-radius: 3vw;
     text-align: center;
@@ -88,12 +88,11 @@ body{
 
 
 /* ADAPTIVE */
-
-@media screen and (max-width: 414px){
+@media screen and (max-width: 1024px){
 
     .maintextservice h1 {
         height: 3.5vw;
-        width: 23vw;
+        width: 9vw;
         padding-top: 0.5vw;
         
     }
@@ -117,15 +116,24 @@ body{
         height: 218vw;
         margin-top: -15vw;
     }
+
+
+    .bottom {
+        padding-bottom: 100vw;
+    }
+
 
 }
 
-@media screen and (max-width: 768px){
+
+
+@media screen and (max-width: 425px){
 
     .maintextservice h1 {
-        height: 3.5vw;
-        width: 23vw;
-        padding-top: 0.5vw;
+        height: 8.5vw;
+        width: 18vw;
+        padding-top: 3vw;
+        border-radius: 25vw;
         
     }
 
@@ -136,24 +144,28 @@ body{
 
 
     .textblock2{
-        padding-top: 0.6vw;
+        height: 8.5vw;
+        width: 28vw;
+        padding-top: 2.5vw;
+        border-radius: 25vw;
     }
 
     .mainbodyservice{
         height: 170vw;
         width: 100vw;
+        margin-top: 11vw;
     }
 
     .menuopenserv {
         height: 218vw;
-        margin-top: -15vw;
+        margin-top:-17vw;
+        margin-left: -10vw;
+        width: 110vw;
     }
 
-
-
-
-
-
+    .serviceblock1 {
+        margin-bottom: 12vw;
+    }
 
 }
 

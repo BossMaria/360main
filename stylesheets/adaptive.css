@@ -11,17 +11,17 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 
 
 /* MENU */
 
 
 .cartdiv, .choicediv{
-    margin-top: 25%;
+    margin-top: 60%;
     width: 30vw;
     height: 26vw;
-    left: -26vw;
+    left: 7vw;
 }
 
 .cartcross {
@@ -52,10 +52,10 @@
 }
 
 .accountdiv{
-    margin-top: 25%;
+    margin-top: 60%;
     width: 30vw;
     height: 26vw;
-    left: -26vw;
+    left: 7vw;
 }
 
 .accountcross{
@@ -80,7 +80,7 @@ h1, p, h2,h3,h4{
     border-radius: 10vw;
     margin: 1% auto;
     /* margin-top: -18vw; */
-    margin-top: 15vw;
+    margin-top: 22vw;
     }
 
 .comptmusic{
@@ -88,11 +88,14 @@ h1, p, h2,h3,h4{
 height: 15vw;
 }
 
+
+
 .menubar{
 width: 30vw;
 height: 15vw;
 border-radius: 6vw;
-left: -26vw;
+left: 7vw;
+top: 270%;
 }
 
 .allertyellow{
@@ -130,21 +133,23 @@ margin-top: 20vw;
 }
 
 .dowload{
-    height: 3.5vw;
-width: 11vw;
+    height: 4.5vw;
+        width: 13vw;
+        padding-top: 1.4vw;
 }
 
 
 /* BLOCK 3 */
 
 .poster1{
-    height: 35vw;
+    height: 30vw;
+        border-radius: 9vw;
 }
 
 .poster2{
     width: 30vw;
     height: 30vw;
-    margin-left: 4vw;
+    margin-left: 3vw;
 }
 
 .poster2 h1 {
@@ -189,7 +194,7 @@ margin-left: 22vw;
 .mantext2{
     width: 30vw;
      top: 26vw;
-     left: 44vw;
+     left: 47vw;
 }
 .mantext2 h1{
     padding-top: 1vw;
@@ -217,8 +222,9 @@ margin-left: 22vw;
 /* BLOCK 7 */
 
 .booktext{
-    height: 4vw;
-    margin-top: -25vw;
+    height: 5vw;
+        margin-top: -25vw;
+        padding-top: 1.5vw;
 }
 
 
@@ -293,24 +299,30 @@ margin-left: 22vw;
 
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 425px) {
 
     /* MENU */
 
-
+    .divmenubar {
+       
+        top: 40%;
+ 
+        left: 20%;
+    }
     .cartdiv, .choicediv{
-        margin-top: 125%;
-        width: 30vw;
-        height: 26vw;
-        left: -26vw;
+        margin-top: 135%;
+        width: 54vw;
+        height: 36vw;
+        left: 22vw;
+        border-radius: 6vw;
     }
 
     .cartcross {
-        margin-left: 25vw;
+        margin-left: 48vw;
     }
 
     .choicecross {
-        margin-left: 13vw;
+        margin-left: 24vw;
     
     }
 
@@ -319,45 +331,47 @@ margin-left: 22vw;
     }
 
     .historyadd{
-        height: 3.5vw;
-        width: 18vw;
-        padding-top: 0.6vw;
-        margin-top: 2vw;
-        margin-left: 2.5vw;
+        height: 8vw;
+        width: 45vw;
+        border-radius: 4vw;
+        padding-top: 3vw;
     }
 
     .order {
-        height: 3.5vw;
-        width: 18vw;
-        padding-top: 0.6vw;
+        height: 8vw;
+        width: 36vw;
+        padding-top: 3vw;
+        border-radius: 5vw;
     }
 
     .accountdiv{
-        margin-top: 125%;
-        width: 30vw;
-        height: 26vw;
-        left: -26vw;
+        margin-top: 120%;
+        width: 54vw;
+        height: 44vw;
+        left: 22vw;
+        border-radius: 6vw;
     }
 
     .accountcross{
-        margin-left: 18vw;
+        margin-left: 32vw;
     }
     .history {
-        height: 3.5vw;
-        width: 20vw;
-        padding-top: 0.5vw;
+        height: 8vw;
+        width: 45vw;
+        border-radius: 4vw;
+        padding-top: 3vw;
     }
 
     h1, p, h2,h3,h4{ 
         font-family: "ApercuProLight";
-        font-size: 2vw; 
+        font-size: 4vw; 
     }
 
     .mainbody{
         background: #FFFFFF;
         width: 100vw;
         /* display: flex; */
-        height: 250vh;
+        height: 700vw;
         border-radius: 10vw;
         margin: 1% auto;
         /* margin-top: -18vw; */
@@ -365,95 +379,145 @@ margin-left: 22vw;
         }
 
     .comptmusic{
-        width: 35vw;
-    height: 15vw;
+        width: 65vw;
+        height: 30vw;
+        border-radius: 4vw;
+    }
+    .musictext3 {
+        margin-top: 3vw;
+    }
+
+    .musicimg{
+        height: 90%;
+        padding-top: 2.5vw;
+        padding-left: 2vw;
     }
 
    .menubar{
-    width: 30vw;
-    height: 15vw;
-    border-radius: 6vw;
-    left: -26vw;
+    width: 54vw;
+    height: 27vw;
+    border-radius: 9vw;
+    left: 22vw;
    }
 
+   .logo img {
+    width: 14vw;
+    margin-left: -2vw;
+}
+
+   .menu {
+    width: 32%;
+    
+}
    .allertyellow{
-    width: 30vw;
-    height: 11vw;
-    border-radius: 1.5vh;
+    width: 61vw;
+    height: 14vw;
+    border-radius: 2vw;
+    margin-top: 11vw;
    }
 
    .allertblue{
-    width: 30vw;
-    height: 11vw;
-    border-radius: 1.5vh;
-    margin-top: 20vw;
+    width: 61vw;
+    height: 16vw;
+    border-radius: 2vw;
+    margin-top: 28vw;
    }
 
    .close1img, .close2img {
-    width: 40%;
-    margin-left: 6vw;
+    width: 16%;
+    margin-left: 36vw;
     }
 
     .box{
-        width: 67vw;
-        height: 5vw;
+        width: 91vw;
+        height: 11vw;
         padding-top: 1.5vw;
+        margin-top: -15vw;
     }
 
+
     .musictext1{
-        height: 5vw;
-        width: 25vw;
+        height: 8vw;
+        width: 45vw;
+        border-radius: 4vw;
+        padding-top: 2vw;
     }
 
     .musictext2 {
-        height: 5vw;
-        width: 25vw;
+        height: 8vw;
+        width: 45vw;
+        border-radius: 4vw;
+        padding-top: 2vw;
     }
 
     .dowload{
-        height: 3.5vw;
-    width: 11vw;
+        height: 7.5vw;
+        width: 23vw;
+        border-radius: 5vw;
+        padding-top: 1.8vw;
     }
     
 
     /* BLOCK 3 */
 
+
+    .block3{
+        flex-direction: column;
+    }
     .poster1{
-        height: 35vw;
+        height: 65vw;
+        width: 90vw;
     }
 
     .poster2{
-        width: 30vw;
-        height: 30vw;
+        width: 80vw;
+        height: 80vw;
         margin-left: 4vw;
+        border-radius: 48vw;
     }
 
     .poster2 h1 {
-        padding-top: 13vw;
+        padding-top: 35vw;
     }
 
     .buy{
-        height: 4vw;
-    width: 9vw;
-    margin-left: 22vw;
-    }
-
-    /* BLOCK 5 */
-
-    .block5text {
-        height: 5vw;
-        width: 30vw;
+        height: 7vw;
+        width: 15vw;
+        margin-left: 36vw;
+        border-radius: 12vw;
         padding-top: 1.5vw;
     }
 
+
+    /* BLOCK 4 */
+
+
+    .block4 h2{
+        font-size: 7vw;
+    }
+    /* BLOCK 5 */
+
+    .block5text {
+        height: 9vw;
+        width: 62vw;
+        padding-top: 2.5vw;
+        border-radius: 7vw;
+    }
+
     .block5text1{
-        height: 5vw;
-        width: 5vw;
+        height: 9vw;
+        width: 9vw;
+        padding-top: 2.5vw;
+        border-radius: 7vw;
     }
 
     /* BLOCK 6 */
 
-    .girltext1 {
+    .block6{
+        display: none;
+    }
+
+    /* .girltext1 {
         height: 4vw;
         width: 37vw;
         top: 40vw;
@@ -492,23 +556,28 @@ margin-left: 22vw;
         padding-right: 0.5vw;
         padding-left: 0.5vw;
 
-      }
+      } */
 
 
     /* BLOCK 7 */
 
     .booktext{
-        height: 4vw;
-        margin-top: -25vw;
+        height: 8vw;
+        margin-top: -27vw;
+        width: 41vw;
+        border-radius: 5vw;
+        padding-top: 2vw;
+        left: 29vw;
+    
     }
 
 
     /* BLOCK 8 */
 
     .block8{
-        gap: 2vw;
+        display: none;
     }
-    .mountaindiv h1 {
+    /* .mountaindiv h1 {
         left: 24vw;
         margin-top: 18vw;
         height: 4vw;
@@ -521,51 +590,71 @@ margin-left: 22vw;
 
     .mountain {
         width: 60vw;
-    }
+    } */
 
     /* BLOCK 9 */
 
     .phototext1{
-        height: 5vw;
-        width: 25vw;
+        height: 8vw;
+        width: 50vw;
+        border-radius: 4vw;
+        padding-top: 2vw;
     }
 
     .phototext2 {
-        height: 5vw;
-        width: 25vw;
+        height: 8vw;
+        width: 39vw;
+        border-radius: 4vw;
+        padding-top: 2vw;
     }
 
 
     /* FOOTER */
 
+    .footerpart1 {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 16vw;
+        margin-top: 3.5vw;
+        margin-left: 12vw;
+    }
+
     .footertext {
-        height: 4.5vw;
-        width: 26vw;
+        height: 8vw;
+        width: 52vw;
+        border-radius: 17vw;
+        padding-top: 2vw;
     }
     .footertext1{
-        height: 4.5vw;
-        width: 12vw;
+        height: 8vw;
+        width: 20vw;
+        border-radius: 10vw;
+        padding-top: 2vw;
     }
 
     .footerpart{
-        gap: 3vw;
+        gap: 17vw;
     }
 
     .u, .b, .m, .s {
-        height: 4.5vw;
-        width: 10vw;
+        height: 9.5vw;
+        width: 31vw;
+        border-radius: 18vw;
+        padding-top: 2.5vw;
+        margin-top: 5vw;
+        margin-bottom: 1vw;
     }
 
-    /* SERVICE////////////////////////////////////////////////// */
-
-    .maintextservice h1 {
-        height: 3.5vw;
-        width: 23vw;
-        padding-top: 0.5vw;
-        
+    .menuindex{
+        padding-left: 36vw;
     }
 
-    .serviceblock1 img {
-        width: 19vw;
+    .menuopen img {
+        margin-top: -8vw;
+        margin-left: 9.5vw;
+        width: 12vw;
+        position: absolute;
     }
+
 }
