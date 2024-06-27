@@ -139,5 +139,13 @@
         border-radius: 7vw;
        
     }
+
+    .mainbook{
+        height: 59vw;
+    }
+
+    .minibook{
+        height: 46vw;
+    }
 }
 

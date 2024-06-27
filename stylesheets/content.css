@@ -240,14 +240,13 @@ margin-bottom: 0.3vw;
 }
 .menuopen{
     width: 100%;
-    height: 60vw;
-    
-    /* display: flex; */
+    height: 70vw;
+     /* display: flex; */
     flex-direction: column;
     position: absolute;
     z-index: 6000;
     background-color: rgba(225, 225, 225, 0.4);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
     filter: saturate(160%);
     gap: 1vw;
     overflow-y: hidden;
